@@ -38,6 +38,7 @@ const Aside = () => {
                 </div>
             </div>
 
+
             <div>
                 <h3>Order details</h3>
 
@@ -49,6 +50,10 @@ const Aside = () => {
                     <p>Brek time</p>
                     <span>sec</span>
                 </div>
+            </div>
+
+            <div>
+                <button className='activity-btn'>Activity Completed</button>
             </div>
         </div>
     );

@@ -94,3 +94,22 @@
 .total-time span {
     color: gray;
 }
+
+.activity-btn {
+
+    width: 290px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #2182c3;
+    border: none;
+    border-radius: 8px;
+    margin-top: 50px;
+
+
+}
+
+.activity-btn:hover {
+    background-color: rgb(20, 183, 20);
+}
