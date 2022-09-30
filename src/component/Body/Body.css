@@ -1,0 +1,25 @@
+.body-container {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 10px;
+    padding-left: 20px;
+
+}
+
+.body-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.food-header {
+    margin-top: 0px;
+    padding-left: 12px;
+    font-weight: 600;
+    color: blue;
+}
+
+.food-header p {
+    font-size: large;
+    color: gray;
+}

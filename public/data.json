@@ -1,51 +1,44 @@
 [
     {
         "id": "6336b5b254a97f73ed8599d8",
-        "picture": "http://placehold.it/32x32",
-        "time": 37,
-        "age": 37,
-        "name": "Holt Solomon"
+        "picture": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/image_data/file/108320/s960_pizza-slice.jpg",
+        "time": 40,
+        "price": 399,
+        "name": "Cheze Pizza"
     },
     {
         "id": "6336b5b28fecfcc4c8517a79",
-        "picture": "http://placehold.it/32x32",
-        "time": 33,
-        "age": 39,
-        "name": "Fay Collins"
+        "picture": "https://www.refrigeratedfrozenfood.com/ext/resources/NEW_RD_Website/DefaultImages/default-pasta.jpg?1430942591",
+        "time": 30,
+        "price": 299,
+        "name": "Hot Pasta"
     },
     {
         "id": "6336b5b2c0004a33a083f297",
-        "picture": "http://placehold.it/32x32",
-        "time": 39,
-        "age": 25,
-        "name": "Janette Riley"
+        "picture": "https://static01.nyt.com/images/2021/02/17/dining/17tootired-grilled-cheese/17tootired-grilled-cheese-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+        "time": 30,
+        "price": 250,
+        "name": "Fried Sandwich"
     },
     {
         "id": "6336b5b28ecdb47560eb1708",
-        "picture": "http://placehold.it/32x32",
-        "time": 38,
-        "age": 34,
-        "name": "Trujillo Edwards"
+        "picture": "https://www.eatthis.com/wp-content/uploads/sites/4/2019/06/deep-dish-pizza-chicago.jpg",
+        "time": 35,
+        "price": 340,
+        "name": "Hot Tometo Pizza"
     },
     {
         "id": "6336b5b2ff3c4cf8d9cfd64a",
-        "picture": "http://placehold.it/32x32",
-        "time": 29,
-        "age": 24,
-        "name": "Adrienne Mckenzie"
+        "picture": "https://wistatefair.com/fair/wp-content/uploads/2022/06/Black-bean-burrito-balls-600x400-1.png",
+        "time": 35,
+        "price": 240,
+        "name": "Chicken Nugget"
     },
     {
         "id": "6336b5b28820c14a37e0360c",
-        "picture": "http://placehold.it/32x32",
-        "time": 21,
-        "age": 30,
-        "name": "Anderson Lewis"
-    },
-    {
-        "id": "6336b5b23e13308b2f7a3781",
-        "picture": "http://placehold.it/32x32",
-        "time": 37,
-        "age": 32,
-        "name": "Skinner Potts"
+        "picture": "https://www.ingredion.com/content/dam/ingredion/usca-images/food/meat/cheeseburger-bread_720x560.jpg",
+        "time": 30,
+        "price": 300,
+        "name": "Chicken Barger"
     }
 ]
