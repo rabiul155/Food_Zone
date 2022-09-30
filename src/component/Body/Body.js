@@ -19,8 +19,8 @@ const Body = () => {
 
             <div>
                 <div className='food-header'>
-                    <h2>Fast Delivery</h2>
-                    <p>Select Your Food</p>
+
+                    <h3>Select Your Food</h3>
                 </div>
                 <div className='body-items'>
                     {

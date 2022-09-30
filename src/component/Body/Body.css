@@ -16,10 +16,6 @@
     margin-top: 0px;
     padding-left: 12px;
     font-weight: 600;
-    color: blue;
-}
-
-.food-header p {
     font-size: large;
-    color: gray;
+    color: rgb(59, 59, 251);
 }

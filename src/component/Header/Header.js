@@ -1,5 +1,6 @@
 
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './Header.css'
 
@@ -7,14 +8,14 @@ const Header = () => {
     return (
         <div className='header'>
             <div>
-
-                <h2>Home </h2>
+                <h2><FontAwesomeIcon icon={faCoffee} /> Food_Zone</h2>
+               
             </div>
             <div className='link'>
-                <a href="/courses">Courses</a>
-                <a href="/Registration">Registration</a>
-                <a href="/Loi-In">Log-In</a>
-                <a href="/About">About</a>
+                <a href="/Discount">Discount</a>
+                <a href="/Item">Ieam</a>
+                <a href="/Popular">Popular</a>
+
             </div>
         </div>
     );
