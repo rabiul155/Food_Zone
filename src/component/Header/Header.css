@@ -1,0 +1,35 @@
+.header {
+    height: 70px;
+    background-color: #2182c3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.header h2 {
+
+    color: white;
+
+}
+
+.link a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+.link a:hover {
+    color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .link a {
+
+        display: none;
+    }
+}
