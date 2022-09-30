@@ -1,3 +1,5 @@
+.container {}
+
 .my-info {
     display: flex;
     align-items: center;
@@ -21,4 +23,53 @@
 
 .my-info p {
     margin: 0px;
+}
+
+.my-biodata {
+    padding: 5px 20px;
+    height: 60px;
+    width: 250px;
+    border-radius: 7px;
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgb(157, 157, 244);
+
+
+}
+
+.biodata {
+    margin: 0px;
+}
+
+
+.add-break {
+    padding: 5px 20px;
+    height: 60px;
+    width: 250px;
+    border-radius: 7px;
+    background-color: aliceblue;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgb(157, 157, 244);
+}
+
+.btn {
+    background-color: rgb(207, 230, 250);
+    border: none;
+    height: 50px;
+    font-weight: 700;
+    width: 50px;
+    border-radius: 25px;
+
+}
+
+.btn:hover {
+    background-color: #2182c3;
+    color: white;
 }

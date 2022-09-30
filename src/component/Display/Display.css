@@ -1,5 +1,5 @@
 .food-card {
-    width: 280px;
+    width: 270px;
     height: 400px;
     border: 2px solid #93b4c9;
     border-radius: 8px;
@@ -12,7 +12,7 @@
 
 
 .food-card img {
-    width: 280px;
+    width: 270px;
     height: 200px;
     border-radius: 8px;
 
