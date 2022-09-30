@@ -19,7 +19,7 @@ const Aside = () => {
                     <p className='biodata'>weight</p>
                 </div>
                 <div>
-                    <h3 className='biodata'>5.7</h3>
+                    <h3 className='biodata'>5.7<small>ft</small></h3>
                     <p className='biodata'>height</p>
                 </div>
                 <div>
@@ -35,6 +35,19 @@ const Aside = () => {
                     <button className='btn'>20s</button>
                     <button className='btn'>30s</button>
                     <button className='btn'>40s</button>
+                </div>
+            </div>
+
+            <div>
+                <h3>Order details</h3>
+
+                <div className='total-time'>
+                    <p>Total time</p>
+                    <span>min</span>
+                </div>
+                <div className='total-time'>
+                    <p>Brek time</p>
+                    <span>sec</span>
                 </div>
             </div>
         </div>

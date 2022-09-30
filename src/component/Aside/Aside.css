@@ -53,6 +53,7 @@
     border-radius: 7px;
     background-color: aliceblue;
     margin-top: 20px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,4 +73,24 @@
 .btn:hover {
     background-color: #2182c3;
     color: white;
+}
+
+.total-time {
+    font-size: large;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: aliceblue;
+    height: 60px;
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px rgb(157, 157, 244);
+
+}
+
+.total-time span {
+    color: gray;
 }
