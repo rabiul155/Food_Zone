@@ -2,6 +2,7 @@
 import logo from '../../images/my.webp'
 import React, { useState } from 'react';
 import './Aside.css'
+import addToLocalStorage from '../../utilities/addToLocalStorage';
 
 const Aside = (props) => {
     const { time } = props;
@@ -15,8 +16,13 @@ const Aside = (props) => {
     const setTime = (time) => {
 
         setBreakTime(time);
-        console.log(breakTime)
+
+        addToLocalStorage(time);
+
     }
+
+
+
 
 
 
@@ -77,3 +83,4 @@ const Aside = (props) => {
 };
 
 export default Aside;
+
