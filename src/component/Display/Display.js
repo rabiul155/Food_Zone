@@ -3,6 +3,7 @@ import React from 'react';
 import './Display.css';
 
 const Display = (props) => {
+    const { btnClicked } = props;
     const { id, picture, time, price, name } = props.item;
 
     return (
@@ -13,7 +14,7 @@ const Display = (props) => {
                 <p>Delivery in : {time}min</p>
                 <p>Price : {price}</p>
             </div>
-            <button className='button-cart'>Order Now</button>
+            <button onClick={() => btnClicked(time)} className='button-cart'>Order Now</button>
 
         </div>
     );

@@ -3,7 +3,12 @@ import logo from '../../images/my.webp'
 import React from 'react';
 import './Aside.css'
 
-const Aside = () => {
+const Aside = (props) => {
+    const { time } = props;
+    let totalTime = 0;
+    for (const i of time) {
+        totalTime = totalTime + i;
+    }
     return (
         <div className='container'>
             <div className='my-info'>
@@ -44,7 +49,7 @@ const Aside = () => {
 
                 <div className='total-time'>
                     <p>Total time</p>
-                    <span>min</span>
+                    <span>{totalTime}min</span>
                 </div>
                 <div className='total-time'>
                     <p>Brek time</p>

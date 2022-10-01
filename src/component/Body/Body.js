@@ -12,7 +12,17 @@ const Body = () => {
             .then(data => setItems(data))
     }, [])
 
-    console.log(items);
+
+
+    const [Time, setTime] = useState([])
+    const btnClicked = (time) => {
+
+        const newTime = [...Time, time]
+        setTime(newTime);
+
+    }
+
+        ;
 
     return (
         <div className='body-container'>
@@ -25,6 +35,7 @@ const Body = () => {
                 <div className='body-items'>
                     {
                         items.map(item => <Display
+                            btnClicked={btnClicked}
                             key={item.id}
                             item={item}
 
@@ -34,7 +45,8 @@ const Body = () => {
 
             </div>
             <div className='aside-items'>
-                <Aside></Aside>
+                <Aside
+                    time={Time}></Aside>
             </div>
 
         </div>
