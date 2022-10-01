@@ -1,6 +1,6 @@
 
 import logo from '../../images/my.webp'
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Aside.css'
 import addToLocalStorage from '../../utilities/addToLocalStorage';
 
@@ -12,6 +12,15 @@ const Aside = (props) => {
     }
 
     const [breakTime, setBreakTime] = useState(0)
+    useEffect(() => {
+        const getTimeLS = localStorage.getItem('break-time');
+        if (getTimeLS) {
+            const timeInt = JSON.parse(getTimeLS);
+            setBreakTime(timeInt);
+        }
+
+    }, [])
+
 
     const setTime = (time) => {
 
@@ -20,6 +29,7 @@ const Aside = (props) => {
         addToLocalStorage(time);
 
     }
+
 
 
 
