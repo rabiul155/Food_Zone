@@ -1,6 +1,6 @@
 
 import logo from '../../images/my.webp'
-import React from 'react';
+import React, { useState } from 'react';
 import './Aside.css'
 
 const Aside = (props) => {
@@ -9,6 +9,18 @@ const Aside = (props) => {
     for (const i of time) {
         totalTime = totalTime + i;
     }
+
+    const [breakTime, setBreakTime] = useState(0)
+
+    const setTime = (time) => {
+
+        setBreakTime(time);
+        console.log(breakTime)
+    }
+
+
+
+
     return (
         <div className='container'>
             <div className='my-info'>
@@ -36,10 +48,10 @@ const Aside = (props) => {
             <div>
                 <h3>Add a break</h3>
                 <div className='add-break'>
-                    <button className='btn'>10s</button>
-                    <button className='btn'>20s</button>
-                    <button className='btn'>30s</button>
-                    <button className='btn'>40s</button>
+                    <button onClick={() => setTime(10)} className='btn'>10s</button>
+                    <button onClick={() => setTime(20)} className='btn'>20s</button>
+                    <button onClick={() => setTime(30)} className='btn'>30s</button>
+                    <button onClick={() => setTime(40)} className='btn'>40s</button>
                 </div>
             </div>
 
@@ -53,7 +65,7 @@ const Aside = (props) => {
                 </div>
                 <div className='total-time'>
                     <p>Brek time</p>
-                    <span>sec</span>
+                    <span>{breakTime}sec</span>
                 </div>
             </div>
 
