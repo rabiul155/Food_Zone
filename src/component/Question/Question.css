@@ -1,0 +1,21 @@
+.question-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.question-container h1 {
+    background-color: #1378bb;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.question {
+    background-color: #1e8cd5;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+
+}
