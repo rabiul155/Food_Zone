@@ -1,6 +1,8 @@
 
 import logo from '../../images/my.webp'
 import React, { useEffect, useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Aside.css'
 import addToLocalStorage from '../../utilities/addToLocalStorage';
 
@@ -33,7 +35,7 @@ const Aside = (props) => {
 
 
 
-
+    const notify = () => toast("Successfully completed");
 
 
 
@@ -86,7 +88,8 @@ const Aside = (props) => {
             </div>
 
             <div>
-                <button className='activity-btn'>Activity Completed</button>
+                <button onClick={notify} className='activity-btn'>Activity Completed</button>
+                <ToastContainer />
             </div>
         </div>
     );
